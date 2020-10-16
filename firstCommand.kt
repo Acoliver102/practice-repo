@@ -1,5 +1,5 @@
 class addInteger(arg: Int) : CommandBase() {
-    var ranInt = 2
+    var mArg = arg
 
     init {
 
