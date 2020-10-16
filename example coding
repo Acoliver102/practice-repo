@@ -1,0 +1,14 @@
+class example(arg: Int) {
+    val exInt = arg
+
+    init {}
+    
+    override fun initialize () {
+        exInt += 1
+    }
+    
+    override fun end () {
+        exInt += 1
+    }
+    println(exInt)
+}
