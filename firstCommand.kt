@@ -8,7 +8,7 @@ class addInteger(arg: Int) : CommandBase() {
         ranInt += 1
     }
 
-    override fun end() {
+    override fun end(interrupted: Boolean) {
         ranInt += 1
         println(ranInt)
     }
