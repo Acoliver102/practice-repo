@@ -1,0 +1,22 @@
+
+class command(arg: int) : CommandBase() {
+
+	var mArg: int = arg
+
+	init {}
+
+	override fun initialize() {
+		mArg = readLine() 
+		mArg++
+	}
+
+	override fun execute() {
+		
+	}
+
+	override fun end(interrupted: Boolean) {
+		mArg++
+		print("$mArg")
+	}
+
+}
