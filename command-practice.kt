@@ -9,7 +9,7 @@ class addInteger(var number = 5) : CommandBase() {
         number++
     }
 
-    override fun end() {
+    override fun end(interrupted: Boolean) {
         number++
         println(number)
         }
