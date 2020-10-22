@@ -1,0 +1,20 @@
+fun main(args: Array<String>) {
+  import edu.wpi.first.wpilibj2.command.CommandBase
+  class ExampleCommand(arg: Int): CommandBase() {
+
+    var mArgs = arg
+
+    init {
+
+    }
+
+    override fun initialize() {
+        mArgs++
+    }
+
+    override fun end(interrupted: Int){
+        mArgs++
+        println(mArgs)
+    }
+}
+}
