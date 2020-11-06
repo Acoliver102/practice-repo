@@ -1,1 +1,3 @@
-val sampleMotor = MotorID(id: 5, name : "sampleTalon", model : TalonFX)
+val sampleMotor = FTalonFX(MotorID(5, "sampleTalon", MotorModel.TalonFX))
+                           
+
